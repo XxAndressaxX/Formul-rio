@@ -1,0 +1,64 @@
+Perguntas sobre HTML
+
+1) Qual é a função da tag <meta charset="UTF-8"> no código HTML?
+(A) Define o idioma da página
+(B) Define o conjunto de caracteres utilizados na página
+(C) Vincula o CSS externo à página
+(D) Indica o título da página
+
+2) Para que serve o atributo lang="pt-br" dentro da tag <html>?
+(A) Define o título da página
+(B) Indica o idioma padrão da página
+(C) Define o layout da página
+(D) Especifica a codificação de caracteres da página
+
+3) Qual é a função da tag <link rel="stylesheet" href="style.css">?
+(A) Define o conteúdo da página
+(B) Vincula um arquivo JavaScript externo à página
+(C) Aplica um estilo CSS externo à página
+(D) Insere metadados no documento HTML
+
+Perguntas sobre CSS
+
+4) No código CSS fornecido, o que o seletor :root faz?
+(A) Aplica estilos específicos a todos os botões da página
+(B) Define variáveis de cor que podem ser reutilizadas no documento
+(C) Aplica estilos diretamente ao corpo do documento
+(D) Define as animações para os elementos da página
+
+5) Qual das seguintes opções descreve corretamente o efeito da propriedade transition: background-color 0.3s; aplicada ao botão no código CSS?
+(A) Altera a cor de fundo do botão instantaneamente
+(B) Muda a cor do botão após 3 segundos
+(C) Suaviza a mudança da cor de fundo quando o botão é clicado
+(D) Suaviza a transição de cor quando o botão é passado com o mouse
+Perguntas sobre JavaScript
+
+6) No código JavaScript fornecido, qual é a função da linha const caixaPrincipal = document.querySelector(".caixa-principal");?
+(A) Seleciona um elemento com a classe "caixa-principal" para manipulação
+(B) Cria uma nova div com a classe "caixa-principal"
+(C) Adiciona uma nova classe ao elemento "caixa-principal"
+(D) Remove o elemento "caixa-principal" do documento
+
+7) Qual é o propósito da função mostraPergunta() no código JavaScript?
+(A) Finalizar a aplicação e exibir os resultados
+(B) Mostrar a pergunta atual e exibir as alternativas correspondentes
+(C) Atualizar o estilo da página quando uma pergunta é respondida
+(D) Adicionar novas perguntas ao array de perguntas
+
+8) O que acontece quando o usuário clica em uma das alternativas exibidas na página?
+(A) A pergunta é removida e a página é recarregada
+(B) A alternativa selecionada é armazenada e a próxima pergunta é exibida
+(C) A página exibe o resultado final imediatamente
+(D) Um novo conjunto de alternativas é gerado dinamicamente
+
+9) Qual é a função da linha botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa)); no código JavaScript?
+(A) Gera um novo botão a cada clique
+(B) Define o texto do botão com a alternativa correta
+(C) Adiciona um evento ao botão para processar a alternativa selecionada
+(D) Cria um novo evento que impede a seleção de alternativas
+
+10) Ao final do quiz, qual parte do código é responsável por exibir o resultado ao usuário?
+(A) A função mostraAlternativas()
+(B) A função respostaSelecionada(opcaoSelecionada)
+(C) A função mostraResultado()
+(D) O array perguntas
